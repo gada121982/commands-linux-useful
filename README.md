@@ -16,3 +16,19 @@
   ```
   xdg-open . 
   ```
+## 3. firewall configuration tool
+  ```
+  ufw 
+  ```
+  3.1 list status firewall
+  ```
+  sudo ufw status
+  ```
+  3.2 open any port
+  ```
+  sudo ufw allow 25
+  ```
+  3.3 block an ip address
+  ```
+  sudo ufw deny from 155.232.212.143
+  ```
