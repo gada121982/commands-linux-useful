@@ -1,7 +1,6 @@
-# commands-linux-useful
-I list all commands linux that help your life easier :3
+# commands-linux-useful.
 
-1. List any process listening on any port. 
+## 1. List any process listening on any port. 
   ```
     lsof -i:port 
   ```
@@ -9,7 +8,7 @@ I list all commands linux that help your life easier :3
   ```
     kill $(lsof -t -i:port)
   ```
-2. open any folder or file
+## 2. open any folder or file.
   ```
   xdg-open [file/folder name]
   ```
