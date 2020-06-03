@@ -32,3 +32,7 @@
   ```
   sudo ufw deny from 155.232.212.143
   ```
+ ### 4. Show OS information
+  ```
+  cat /etc/*release* 
+  ```
