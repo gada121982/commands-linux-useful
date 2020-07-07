@@ -36,3 +36,8 @@
   ```
   cat /etc/*release* 
   ```
+  
+   ### 5. Check process running on specific port 
+  ```
+  lsof -i :8000
+  ```
