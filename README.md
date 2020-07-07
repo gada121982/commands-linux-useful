@@ -33,9 +33,15 @@
   sudo ufw deny from 155.232.212.143
   ```
  ### 4. Show OS information
+  4.1 Check os infor
   ```
   cat /etc/*release* 
   ```
+  4.2 check ram infor
+  ```
+  free -h
+  ```
+  
   
    ### 5. Check process running on specific port 
   ```
